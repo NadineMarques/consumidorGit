@@ -14,7 +14,8 @@ module.exports = function (/* ctx */) {
     // https://quasar.dev/quasar-cli/cli-documentation/boot-files
     boot: [
 
-      'i18n'
+      'i18n',
+      'axios'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -29,7 +30,7 @@ module.exports = function (/* ctx */) {
       // 'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
-      // 'line-awesome',
+      'line-awesome',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
       'roboto-font', // optional, you are not bound to it
